@@ -1,0 +1,12 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: COURSEAPP-CONFIG
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jagannath19/courseapp-repository
